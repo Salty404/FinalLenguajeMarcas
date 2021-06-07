@@ -1,0 +1,313 @@
+body{
+    background-color: rgb(231, 217, 198);
+
+}
+
+div.container-fluid{
+    width: 1540px;
+}
+
+div.container-fluid#barraprimera{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+div#moto{
+    color: orange;
+    
+}
+
+
+div.contacto{
+    text-align: left;
+    display: inline-block;
+    border-left: 2px solid darkgray;
+    padding: 0px 10px 0px 10px;
+}
+
+
+div.contacto#login{
+
+    border: none;
+}
+
+div#tlf{
+    text-align: center;
+}
+
+a.enlace{
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+a.enlace:hover{
+    color: orange;
+}
+
+img#logo{
+   width: 30%;
+   height: auto;
+   margin-left: 200px;
+
+}
+
+nav#menu{
+    border-bottom: 4px solid orange;
+    width: 1540px;
+    margin: auto;
+    background-color: white;
+}
+
+section{
+
+    background-color: white;
+    width: 1540px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+
+div#maincard{
+    margin: auto;
+    height: 410px;
+    border: 1px solid darkgray;
+}
+
+div#parteNaranja{
+    background-color: orange;
+    height: 408px;
+
+}
+
+img#mochila{
+    height: 40%;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+h5.card-title{
+    color:white;
+    margin: 20px 0  0 30px;
+    font-size: 30px;
+
+}
+
+h3.card-title{
+    color:white;
+    margin: 5px 0 0 30px; 
+    font-size: 50px;
+}
+
+h3#precio{
+    color: rgb(59, 58, 58);
+    font-size: 65px;
+}
+
+p.card-text{
+    margin: 5px 0 0 30px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+    color: rgb(59, 58, 58);
+}
+
+a#compra{
+    padding-top: 12px;
+    margin: 20px 0 0 30px;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    color:rgb(59, 58, 58);
+    border: none;
+}
+
+a#compra:hover{
+    color:orange;
+    background-color: rgb(59, 58, 58);
+    border: none;
+}
+
+div#rrss{
+
+    
+    float: right;
+    margin: 30px 30px 0 0; 
+
+}
+
+a.rrss{
+    color: rgb(59, 58, 58);
+    margin-left: 5px;
+}
+
+a.rrss:hover{
+    color: white;
+}
+
+div.container-fluid#fotos{
+    width: 1525px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+div.card-img-overlay#articulos {
+    border: 10px solid rgb(231, 217, 198);
+    border-radius: 0;
+}
+
+div.card-img-overlay h5.card-title{
+    color: black;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+div.card-img-overlay p.card-text{
+    margin: 230px 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 14px;
+    border: none;
+    color:black;
+    
+}
+
+div.card-img-overlay p.card-text#antiguo{
+    margin: -25px 0 0 40px;
+    font-size: 18px;
+    text-decoration:line-through;
+    
+
+}
+
+div.card-img-overlay p.card-text#rebaja{
+    margin: -10px 0 0 0;
+    font-size: 30px;
+    color: orange;
+
+}
+
+a#compra2{
+    margin: -90px 0 0 175px;
+    background-color: orange;
+    height: 60px;
+    width: 125px;
+    padding-top: 15px;
+    border: none;
+    
+}
+
+a#compra2:hover{
+    
+    background-color: rgb(231, 217, 198);
+    color: orange;   
+    
+}
+
+div#imagen{
+    border:none;
+    border-radius: 0;
+}
+aside{
+    background-color: white;
+    width: 1540px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+a.publi{
+    display: inline-block;
+}
+
+a.publi#anuncio1{
+    border: 10px solid rgb(231, 217, 198);
+
+}
+
+a.publi#anuncio2{
+    
+    margin-left: 100px;
+}
+
+img#boletin{
+
+    width: 500px;
+}
+
+footer{
+    padding-top: 10px;
+    background-color: rgb(59, 58, 58) ;
+    width: 1540px;
+    margin: auto;
+    color: white;
+}
+
+footer div.col{
+    border-left: 1px solid orange ;
+    height: 200px;
+}
+
+footer h6{
+
+    color: orange;
+}
+
+ul.pie{
+    list-style:none;
+    padding: 0;
+}
+
+ul.pie li::before{
+    content: "\002D";
+    padding-right: 5px ;
+
+}
+
+
+a.pie{
+    text-decoration: none;
+    color: white;
+}
+
+a.pie:hover{
+    color:orange;
+}
+
+ul#pago{
+    list-style:none;
+    padding: 0; 
+}
+ul#pago li p{
+
+    margin-top: -30px;
+    padding-left: 45px;
+}
+
+img#imf{
+    margin-top: 20px;
+    width: 150px;
+}
+
+p.firma{
+   margin: auto;
+   font-size: 14px;
+
+}
+
+@media (max-width: 800px) {
+    
+    
+    img#mochila {
+        width: 200px;
+    }
+
+    div.container-fluid#barraprimera{
+        display:none;
+    }
+
+    footer {
+        display: none;
+    }
