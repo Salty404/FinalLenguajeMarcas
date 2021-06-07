@@ -4,3 +4,4 @@ Proyecto final de Lenguaje de Marcas del primer curso de desarrollo de aplicacio
 
 Se ha utilizado Bootstrap.
 Las imágenes han sido todas editadas por mí.
+Solo era necesaria la inclusión del index, los enlaces no llevan a ninguna página ni realizan ninguna acción.
